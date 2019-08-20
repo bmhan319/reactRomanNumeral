@@ -21,7 +21,7 @@ class RomanInput extends Component {
       <div className="input-container">
         <form className="form1" id="form1" onSubmit={this.handleSubmit}>
           <label htmlFor="digits" className="digits-label">Please enter a number: </label>
-          <input type="number" name="digits" id="digits" className="digits text" min="0" max="10000" placeholder="Up to 10,000" onChange={this.changeValue}/>
+          <input type="number" name="digits" id="digits" className="digits-text" min="0" max="10000" placeholder="Up to 10,000" onChange={this.changeValue}/>
         </form>
         <button className="digits-button" type="button" form="form1" onClick={this.handleSubmit}>Submit</button>
       </div>

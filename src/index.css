@@ -30,7 +30,8 @@ body {
 .roman-text {
   text-align: center;
   margin-bottom: 32px;
-  padding: 0 8px;
+  padding: 0 24px;
+  letter-spacing: .05em;
 }
 
 .input-container {
@@ -46,11 +47,13 @@ body {
 
 .digits-label {
   padding-right: 8px;
+  letter-spacing: .05em;
 }
 
 .digits-text {
   width: 100px;
   padding-left: 4px;
+  letter-spacing: .05em;
 }
 
 .digits-button {
@@ -59,6 +62,8 @@ body {
   border: 2px solid #49BEB7;
   background-color: #BadFDB;
   outline-width: 0;
+  letter-spacing: .05em;
+  font-size: 1em;
 }
 
 .output-container {
@@ -72,6 +77,14 @@ body {
 
 .modernNumber {
   padding-bottom: 8px;
+  letter-spacing: .05em;
 }
 
+.result {
+  letter-spacing: .05em;
+}
+
+.result-roman {
+  font-family: 'Enriqueta', serif;
+}
 

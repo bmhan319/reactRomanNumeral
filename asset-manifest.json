@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reactRomanNumeral/static/css/main.7f3170d5.chunk.css",
+    "main.js": "/reactRomanNumeral/static/js/main.0f13188b.chunk.js",
+    "main.js.map": "/reactRomanNumeral/static/js/main.0f13188b.chunk.js.map",
+    "runtime~main.js": "/reactRomanNumeral/static/js/runtime~main.eadefc90.js",
+    "runtime~main.js.map": "/reactRomanNumeral/static/js/runtime~main.eadefc90.js.map",
+    "static/js/2.be93efde.chunk.js": "/reactRomanNumeral/static/js/2.be93efde.chunk.js",
+    "static/js/2.be93efde.chunk.js.map": "/reactRomanNumeral/static/js/2.be93efde.chunk.js.map",
+    "index.html": "/reactRomanNumeral/index.html",
+    "precache-manifest.2605f31a9999b10026b52b6ee1867f6e.js": "/reactRomanNumeral/precache-manifest.2605f31a9999b10026b52b6ee1867f6e.js",
+    "service-worker.js": "/reactRomanNumeral/service-worker.js",
+    "static/css/main.7f3170d5.chunk.css.map": "/reactRomanNumeral/static/css/main.7f3170d5.chunk.css.map"
+  }
+}

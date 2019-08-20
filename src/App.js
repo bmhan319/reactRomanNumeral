@@ -3,6 +3,11 @@ import RomanInput from "./RomanInput"
 import RomanOutput from "./RomanOutput"
 
 class App extends Component {
+  state = {
+    numValue: 10,
+    romanValue: "X"
+  }
+
   render() {
     return (
       <div className="App">
@@ -11,7 +16,7 @@ class App extends Component {
           <p className="roman-text">Enter a number to convert it to roman numerals.</p>
         </div>
         <RomanInput />
-        <RomanOutput />
+        <RomanOutput westNum={this.state.numValue} romanNum={this.state.romanValue}/>
       </div>
     );
   }

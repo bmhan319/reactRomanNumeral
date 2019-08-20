@@ -1,10 +1,12 @@
 import React from 'react'
 
-const RomanOutput = () => {
+const RomanOutput = (props) => {
+  const {westNum, romanNum} = props
+
   return(
     <div className="output-container">
-      <p className ="modernNumber">For the number: </p>
-      <p className="result">The Roman Numeral is: </p>
+      <p className ="modernNumber">For the number: {westNum}</p>
+      <p className="result">The Roman Numeral is: {romanNum}</p>
     </div>
   )
 }

@@ -13,7 +13,7 @@ class RomanInput extends Component {
 
   handleSubmit = (event) => {
     event.preventDefault()
-    //run function from Apps.js
+    this.props.romanConvert(this.state.westernNum)
   }
 
   render() {
